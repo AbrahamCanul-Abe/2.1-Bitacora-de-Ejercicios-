@@ -1,1 +1,170 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T20:00:16.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="14.6.11" etag="LMG5EftAbhWWwVgcMC2O" type="github"><diagram id="U0w68vCM43PjWfVC3BLn">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-07T20:36:53.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="woroZQqqhqnW3epVGU6a" version="14.6.11" type="github">
+  <diagram id="U0w68vCM43PjWfVC3BLn" name="Page-1">
+    <mxGraphModel dx="1483" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" background="#009999" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-12" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#82b366;fillColor=#d5e8d4;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="370" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="bj9iCGvPREXbDzV2eHiw-1" target="bj9iCGvPREXbDzV2eHiw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-10" value="SVN CHECKOUT&lt;br&gt;Después del primer clone es SVN UPDATE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj9iCGvPREXbDzV2eHiw-9">
+          <mxGeometry x="0.2701" y="-1" relative="1" as="geometry">
+            <mxPoint y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-1" value="&lt;b&gt;Repositorio remoto&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="540" y="363" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-2" value="&lt;b&gt;Developer 1&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="180" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-3" value="&lt;b&gt;Developer 3&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="530" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-4" value="&lt;b&gt;Developer 2&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="565" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.305;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bj9iCGvPREXbDzV2eHiw-8" target="bj9iCGvPREXbDzV2eHiw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-15" value="SVN ADD *" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj9iCGvPREXbDzV2eHiw-14">
+          <mxGeometry x="0.1695" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-8" value="&lt;b&gt;Repositorio Local&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bj9iCGvPREXbDzV2eHiw-13" target="bj9iCGvPREXbDzV2eHiw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-17" value="SVN COMMIT&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj9iCGvPREXbDzV2eHiw-16">
+          <mxGeometry x="-0.2851" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-13" value="&lt;b&gt;Área&amp;nbsp; temporal&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="303" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bj9iCGvPREXbDzV2eHiw-18" target="bj9iCGvPREXbDzV2eHiw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-18" value="Archivos trackeados" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="340" y="170" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-31" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#996185;fillColor=#e6d0de;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="650" y="50" width="370" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.855;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;" edge="1" parent="1" target="bj9iCGvPREXbDzV2eHiw-36" source="bj9iCGvPREXbDzV2eHiw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="608" y="250" />
+              <mxPoint x="785" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-33" value="SVN CHECKOUT&lt;br&gt;SVN UPDATE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj9iCGvPREXbDzV2eHiw-32">
+          <mxGeometry x="0.2701" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.305;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bj9iCGvPREXbDzV2eHiw-36" target="bj9iCGvPREXbDzV2eHiw-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-35" value="SVN ADD *" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj9iCGvPREXbDzV2eHiw-34">
+          <mxGeometry x="0.1695" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-36" value="&lt;b&gt;Repositorio Local&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="750" y="85" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.855;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" source="bj9iCGvPREXbDzV2eHiw-39" target="bj9iCGvPREXbDzV2eHiw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="133" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="895" y="300" />
+              <mxPoint x="640" y="300" />
+              <mxPoint x="640" y="367" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-38" value="SVN COMMIT&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj9iCGvPREXbDzV2eHiw-37">
+          <mxGeometry x="-0.2851" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-39" value="&lt;b&gt;Área&amp;nbsp; temporal&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="860" y="95" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bj9iCGvPREXbDzV2eHiw-41" target="bj9iCGvPREXbDzV2eHiw-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-41" value="Archivos trackeados" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="50" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-42" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#d79b00;fillColor=#ffcd28;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.laptop;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="660" y="473" width="370" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="bj9iCGvPREXbDzV2eHiw-47" source="bj9iCGvPREXbDzV2eHiw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="596.0588235294117" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="630" y="443" />
+              <mxPoint x="630" y="460" />
+              <mxPoint x="900" y="460" />
+              <mxPoint x="900" y="553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-44" value="SVN CHECKOUT&lt;br&gt;SVN UPDATE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj9iCGvPREXbDzV2eHiw-43">
+          <mxGeometry x="0.2701" y="-1" relative="1" as="geometry">
+            <mxPoint x="-87" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.305;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bj9iCGvPREXbDzV2eHiw-47" target="bj9iCGvPREXbDzV2eHiw-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-46" value="SVN ADD *" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj9iCGvPREXbDzV2eHiw-45">
+          <mxGeometry x="0.1695" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-47" value="&lt;b&gt;Repositorio Local&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="890" y="525" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bj9iCGvPREXbDzV2eHiw-50" target="bj9iCGvPREXbDzV2eHiw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-49" value="SVN COMMIT&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj9iCGvPREXbDzV2eHiw-48">
+          <mxGeometry x="-0.2851" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-50" value="&lt;b&gt;Área&amp;nbsp; temporal&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="750" y="530" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bj9iCGvPREXbDzV2eHiw-52" target="bj9iCGvPREXbDzV2eHiw-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-52" value="Archivos trackeados" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="745" y="690" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-53" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Mapa mental: Trabajo colaborativo en SUBVERSION&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bj9iCGvPREXbDzV2eHiw-54" value="&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;Jesús Abraham Canul Couoh&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="95" width="280" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
